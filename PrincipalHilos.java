@@ -1,6 +1,6 @@
 package Hilos;
 import java.util.*;
-public class Main {
+public class PrincipalHilos{
         
     public static void main(String [] Args) {
         Scanner leer = new Scanner(System.in);
@@ -9,8 +9,8 @@ public class Main {
         Hilo3 Media = new Hilo3();
         
         System.out.println("Arreglo:");
-        int tamaño=100;
-        int num[] = new int[tamaño]; 
+        int tamaÃ±o=100;
+        int num[] = new int[tamaÃ±o]; 
         
         for(int x=0; x<num.length; x++){
             num[x] = (int) (Math.random()*100)+1;
